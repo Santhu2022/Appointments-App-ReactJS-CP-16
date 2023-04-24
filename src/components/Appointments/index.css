@@ -1,0 +1,135 @@
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.app-container {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 90%;
+  max-width: 1100px;
+  border-radius: 16px;
+}
+@media screen and (min-width: 768px) {
+  .app-container {
+    padding: 60px;
+  }
+}
+.input-and-banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.banner-image {
+  width: 400px;
+  max-width: 400px;
+}
+@media screen and (max-width: 767px) {
+  .banner-image {
+    display: none;
+  }
+}
+.form-container {
+  width: 100%;
+  max-width: 300px;
+}
+
+.app-heading {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-size: 28px;
+  }
+}
+.input-label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .input-label {
+    font-size: 12px;
+  }
+}
+.input-element {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  height: 38px;
+  border-radius: 3px;
+  border: 1px solid #171f46;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  padding-left: 10px;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .input-element {
+    height: 35px;
+  }
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 10px;
+  padding: 8px 18px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-top: 12px;
+}
+@media screen and (min-width: 768px) {
+  .add-button {
+    padding: 6px 16px;
+  }
+}
+.separator {
+  margin-top: 24px;
+  border: 1px solid #b5b7c4;
+}
+.appointments-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.appointment-section-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+}
+.starred-button {
+  color: #9897f0;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  font-weight: 600;
+  font-family: 'Roboto';
+  height: 25px;
+  border-radius: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  flex-shrink: 0;
+}
+.clicked-starred-button{
+    background-color: #9897f0;
+    border: none;
+    color: #ffffff;
+}
+.appointments-list {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
